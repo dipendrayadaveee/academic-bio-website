@@ -41,4 +41,4 @@ email: ""
 ---
 Dipendra Yadav is a Phd researcher in Humanoid Robot assisted Neural rehabilitaion  at the Mobile Multimedia Information Systems group. His research interests include robotics, Natural Language Processing and Knowlege Representation. Before joining MMIS, he worked as software engineer at the PlanetAI, Rostock.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/Dipendra*Yadav*-_AI_Researcher.pdf" "newtab" >}}resumé{{< /staticref >}}.
