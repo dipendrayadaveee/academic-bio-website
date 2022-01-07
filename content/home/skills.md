@@ -17,7 +17,7 @@ subtitle:
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
 - description: 90%
-  icon: python
+  icon: Python
   icon_pack: fab
   name: python
 - description: 70%
