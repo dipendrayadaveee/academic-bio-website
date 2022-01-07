@@ -24,8 +24,7 @@ date_format: Jan 2006
 experience:
   - title: Scientific Researcher
     company: Universität Rostock
-    company_url: 'https://www.uni-rostock.de/'
-    company_logo:
+    company_url: 'https://www.uni-rostock.de/
     location: Rostock
     date_start: '2022-01-15'
     date_end: present
@@ -33,7 +32,6 @@ experience:
   - title: Software Engineer
     company: PlanetAI GmbH
     company_url: 'https://planet-ai.de/'
-    company_logo: 
     location: Rostock
     date_start: '2020-05-01'
     date_end: '2022-01-15'
@@ -42,7 +40,6 @@ experience:
   - title: Student Assistant Data Scientist
     company: Market Logic Software
     company_url: 'https://www.marketlogicsoftware.com/'
-    company_logo: 
     location: Berlin
     date_start: '2019-11-01'
     date_end: '2020-04-30'
