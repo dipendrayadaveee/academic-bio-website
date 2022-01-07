@@ -31,9 +31,9 @@ education:
     - course: Master in Electrical Engineering
       institution: University of Rostock
       year: 2020
-    - course: BEng in Electrical and Electronics Engineering
+    - course: BE in Electrical & Electronics Engineering
       institution: Visvesvaraya Technological University
-      year: 2016
+      year: 2015
 superuser: true
 highlight_name: true
 title: Dipendra Yadav
