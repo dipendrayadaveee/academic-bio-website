@@ -1,6 +1,6 @@
 ---
 role: Scientific Researcher
-avatar_filename: avatar.rotated.jpg
+avatar_filename: avatar.jpg
 bio: My research interests include distributed robotics, Knowledge
   Representation and Natural language processing.
 interests:
