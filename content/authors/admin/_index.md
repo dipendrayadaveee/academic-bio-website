@@ -20,9 +20,6 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/dya21
-  - icon: graduation-cap
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 organizations:
   - name: University of Rostock
     url: https://www.uni-rostock.de/
@@ -37,7 +34,7 @@ education:
 superuser: true
 highlight_name: true
 title: Dipendra Yadav
-email: ""
+email: dipendrayadaveee@gmail.com
 ---
 Dipendra Yadav is a Phd researcher in Humanoid Robot assisted Neural rehabilitaion under the supervision of [Dr. Sebastian Bader](https://scholar.google.com/citations?user=taD-Av8AAAAJ&hl=en) in the [MMIS](https://www.mmis.informatik.uni-rostock.de/) group of the University of Rostock. His research interests include robotics, Natural Language Processing and Knowlege Representation. Before joining the group, he worked as software engineer at [PlanetAI](https://planet-ai.de/), Rostock.
 
