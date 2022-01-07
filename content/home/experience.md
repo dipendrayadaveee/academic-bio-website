@@ -27,7 +27,7 @@ experience:
     company_url: 'https://www.uni-rostock.de/
     location: Rostock
     date_start: '2022-01-15'
-    date_end: present
+    date_end:
         
   - title: Software Engineer
     company: PlanetAI GmbH
