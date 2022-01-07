@@ -28,7 +28,7 @@ organizations:
     url: https://www.uni-rostock.de/
 education:
   courses:
-    - course: Master in Electrical Engineering and Information Technology
+    - course: Master in Electrical Engineering
       institution: University of Rostock
       year: 2020
     - course: BEng in Electrical and Electronics Engineering
