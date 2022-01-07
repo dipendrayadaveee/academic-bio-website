@@ -39,6 +39,6 @@ highlight_name: true
 title: Dipendra Yadav
 email: ""
 ---
-Dipendra Yadav is a Phd researcher in Humanoid Robot assisted Neural rehabilitaion  at the Mobile Multimedia Information Systems group. His research interests include robotics, Natural Language Processing and Knowlege Representation. Before joining MMIS, he worked as software engineer at the PlanetAI, Rostock.
+Dipendra Yadav is a Phd researcher in Humanoid Robot assisted Neural rehabilitaion under the supervision of [Dr. Sebastian Bader](https://scholar.google.com/citations?user=taD-Av8AAAAJ&hl=en) in the [MMIS](https://www.mmis.informatik.uni-rostock.de/) group of the University of Rostock. His research interests include robotics, Natural Language Processing and Knowlege Representation. Before joining the group, he worked as software engineer at [PlanetAI](https://planet-ai.de/), Rostock.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
