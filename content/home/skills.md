@@ -28,6 +28,10 @@ feature:
   icon: linux
   icon_pack: fab
   name: Linux
+- description: 70%
+  icon: git-alt
+  icon_pack: fab
+  name: Git
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
