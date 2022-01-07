@@ -23,13 +23,43 @@ image:
   focal_point: Smart
 url_code: ""
 ---
+Natural language processing has seen exponential growth since deep learning has
+been used for various tasks. Deep learning has replaced the old rule-based methods by
+providing better performance on almost all the tasks in NLP, as deep learning basically
+looks into the hidden patterns and structures in the data which were sometimes not
+detected and at other-times overlooked by the rule-based systems. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+The research and development in NLP have been however focused on some handful languages of the world
+given their financial importance and a huge number of speakers. This has left out most
+of the other languages unexplored. The other reason for the lack of research in these
+languages is the unavailability of properly annotated and the required amount of datasets
+which is very important for training deep learning neural networks. The situation looks
+grim. 
 
-Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.
+When we look at the world language tree, thankfully we see that most of the
+unexplored languages have other well-explored languages nearby which basically means
+that both the languages are kind of similar. So if we could somehow adapt research
+and development from one language to another, it could be really helpful for both the
+languages. The goal of this thesis work is to explore transfer learning for the task of
+Part-of-speech(POS) tagging between Hindi and Nepali languages which are part of the
+Indo-Aryan language family with very high similarity. We have tried to explore the
+possibility of jointly training a model for the task of POS tagging in both Hindi and
+Nepali language and see if it helps in improving the performance of the model. We also
+try to explore if multitask learning in the Hindi language can be helpful for the task of
+POS tagging with auxiliary tasks of the gender tagging and singularity/plurality tagging.
+The deep learning architecture used for this work is BLSTM-CNN-CRF. The model is
+trained with monolingual word embeddings, vector mapped embeddings, and also with
+jointly trained Hindi-Nepali word embeddings in different setups with varying dropout
+from 0.25 to 0.5 and using ADAM and AdaDelta optimizers. These modes were used to
+train the models of individual languages, multitask learning in the Hindi language, and
+transfer learning for the task of POS tagging between Hindi and Nepali language. 
 
-Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.
-
-Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.
-
-Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.
+It has
+been observed that the jointly trained Hindi-Nepali word embeddings seem to improve
+the performance of all the models, better than monolingual word embeddings and vector
+mapped word embeddings. The default setup derived from Reimers et. al. \[1] seems to
+help the model in its task of POS tagging. It has also been observed that multitask
+learning doesn’t seem to help in the task of POS tagging in the Hindi language, on the
+contrary, it degrades the performance. And for jointly training a model for the task of
+POS tagging between Hindi and Nepali language, it also doesn’t seem to help in the
+performance of the model.
