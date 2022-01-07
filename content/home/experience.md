@@ -25,7 +25,7 @@ experience:
   - title: Scientific Researcher
     company: Universität Rostock
     company_url: 'https://www.uni-rostock.de/'
-    company_logo: org-gc
+    company_logo:
     location: Rostock
     date_start: '2022-01-15'
     date_end: present
