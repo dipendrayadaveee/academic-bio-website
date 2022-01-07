@@ -1,6 +1,6 @@
 ---
 role: Scientific Researcher
-avatar_filename: img.jpg
+avatar_filename: avatar.jpg
 bio: My research interests include distributed robotics, mobile computing and
   programmable matter.
 interests:
